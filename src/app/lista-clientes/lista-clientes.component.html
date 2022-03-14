@@ -1,0 +1,9 @@
+<h1>Listado clientes</h1>
+<table border="2">
+  <tr *ngFor="let cliente of datos">
+    <td>{{cliente.nombre}}</td>
+    <td>{{cliente.cif}}</td>
+    <td>{{cliente.direccion}}</td>
+    <td>{{cliente.grupo}}</td>
+  </tr>
+</table>
